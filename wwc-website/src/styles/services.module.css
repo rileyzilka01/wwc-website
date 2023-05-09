@@ -1,0 +1,103 @@
+.wrapper {
+    color: #042349;
+    margin: 100px 50px 0px 50px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-weight: 500;
+    gap: 20px;
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    border-right: 3px solid #042349;
+    padding-right: 30px;
+}
+
+.topLeft {
+    display: flex;
+    flex-direction: column;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    margin: 10px;
+    font-size: 34px;
+}
+
+.subtitle {
+    margin: 20px 10px 20px 10px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.description {
+    font-size: 18px;
+    margin: 10px;
+    text-align: start;
+}
+
+.price {
+    background: #f59c37;
+    padding: 10px;
+    font-size: 24px;
+    border-radius: 20px;
+    margin: 10px;
+    align-self: center;
+}
+
+.bullet {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 50px 0px 50px;
+    border-left: 3px solid #042349;
+    padding-left: 10px;
+}
+
+.bulletNumber {
+    font-size: 21px;
+    font-weight: bold;
+    align-self: start;
+}
+
+.button {
+    font-size: 28px;
+    font-weight: 600;
+    padding: 15px;
+    background: #f59c37;
+    border-radius: 20px;
+    box-shadow: 3px 3px 0px 0px;
+    align-self: center;
+    margin-top: 20px;
+    transition: 0.3s ease-in-out;
+    transform: scale(1.00);
+}
+
+.button:hover {
+    transition: 0.3s ease-in-out;
+    transform: scale(1.05);
+}
+
+.image {
+    object-fit: cover;
+    height: 700px;
+    width: auto;
+    border-radius: 50px;
+    margin-top: 20px;
+}
