@@ -71,7 +71,7 @@ export default function Services() {
                     Overall, a high-quality window washing job will leave your windows looking clean, clear, and sparkling. The result will be healthier seals that improve your windows longevity and insulation capabilities, and a brighter and more inviting space that will impress both your family and your guests.
                 </h3>
                 <h3 className={styles.price}>
-                    $80 - $349
+                    $80 - $450
                 </h3>
             </div>
             <h2 className={styles.title}>

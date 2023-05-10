@@ -13,6 +13,7 @@ import Head from 'next/head'
 //dark blue: #0C458D
 //darkest blue: #042349
 //orange: #f59c37
+//light blue: #e0f9ff
 
 export default function Home() {
     return (
@@ -21,7 +22,7 @@ export default function Home() {
                 <title>Home | WWC</title>
                 <meta name="description" content="" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
-                <link rel="icon" href="/media/pictures/logo.png" />
+                <link rel="icon" href="/media/logo.png" />
             </Head>
             <Navbar />
             <Hero />

@@ -1,0 +1,80 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    padding-top: 80px;
+    color: #042349;
+    min-height: 100vh;
+}
+
+.mainTitle {
+    margin-top: 50px;
+}
+
+.mainTitle:before, .mainTitle:after {
+    display: none;
+}
+
+.mainSubtitle {
+    text-align: center;
+}
+
+.jobWrapper {
+    margin: 50px 100px 0px 100px;
+    border-top: 3px solid #042349;
+    border-bottom: 3px solid #042349;
+}
+
+.jobHeader {
+    display: flex;
+    flex-flow: row wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    align-self: center;
+
+}
+
+.headerItem {
+    flex: 1 1 auto;
+    text-align: center;
+    padding: auto;
+    font-size: 36px;
+}
+
+.headerItem + .headerItem {
+    border-left: solid 3px #042349;
+}
+
+.chev {
+    display: var(--disp);
+    height: 40px;
+    width: 40px;
+}
+
+.expandedWrapper {
+    display: var(--disp);
+    flex-direction: column;
+}
+
+.description {
+    font-size: 28px;
+    padding: 20px;
+}
+
+.bulletWrapper {
+    padding: 0px 40px 40px 40px;
+}
+
+.bulletTitle {
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.bullet {
+    font-size: 22px;
+    padding-left: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border-left: 3px solid #042349;
+}

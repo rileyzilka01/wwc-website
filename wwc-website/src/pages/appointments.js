@@ -10,7 +10,7 @@ export default function Home() {
                 <title>Appointments | WWC</title>
                 <meta name="description" content="appointments, scheduling, schedule, calendar, availability, book, time, window washing, collective" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
-                <link rel="icon" href="/media/pictures/logo.png" />
+                <link rel="icon" href="/media/logo.png" />
             </Head>
             <Navbar />
             <Footer />

@@ -54,7 +54,8 @@
 }
 
 .price {
-    background: #f59c37;
+    background: #e0f9ff;
+    border: 3px solid #f59c37;
     padding: 10px;
     font-size: 24px;
     border-radius: 20px;
@@ -80,9 +81,9 @@
     font-size: 28px;
     font-weight: 600;
     padding: 15px;
-    background: #f59c37;
+    border: 3px solid #f59c37;
+    background: #e0f9ff;
     border-radius: 20px;
-    box-shadow: 3px 3px 0px 0px;
     align-self: center;
     margin-top: 20px;
     transition: 0.3s ease-in-out;

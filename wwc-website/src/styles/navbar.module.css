@@ -47,7 +47,7 @@
     font-size: 26px;
     font-weight: 600;
     padding: 10px;
-    background: #f59c37;
+    border: 3px solid #f59c37;
+    background: #e0f9ff;
     border-radius: 20px;
-    box-shadow: 3px 3px 0px 0px;
 }
