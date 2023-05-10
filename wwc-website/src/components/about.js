@@ -20,7 +20,7 @@ export default function About() {
                             </h2>
                         </div>
                         <p className={styles.desc}>
-                            We take satisfaction in providing an industry wide competetive, accurate rate for the work that we do. We love to negotiate, but we have our limits. We strive to provide all customers with the best price possible while maintaining the value of our work. We believe in the age-old saying, 'You get what you pay for'. 
+                            We take satisfaction in providing an industry wide competetive, accurate rate for the work that we do. We love to negotiate, but we have our limits. We strive to provide all customers with the best price possible while maintaining the value of our work. We believe in the age-old saying, &apos;You get what you pay for&apos;. 
                         </p>
                     </div>
                     <div className={styles.bottomItem}>

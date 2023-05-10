@@ -160,7 +160,7 @@ export default function Jobs() {
                             Ability to follow safety guidelines and protocols.
                         </div>
                         <div className={styles.bullet}>
-                            Valid driver's licence and reliable transportation is preferred but not required.
+                            Valid driver&apos;s licence and reliable transportation is preferred but not required.
                         </div>
                     </div>
                     <div className={styles.description}>

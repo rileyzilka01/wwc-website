@@ -18,7 +18,7 @@ export default function Hero() {
                     Window Washing Collective
                 </h1>
                 <p className={styles.herop}>
-                    You Don't Pay Until We Get The Okay
+                    You Don&apos;t Pay Until We Get The Okay
                 </p>
             </div>
         </div>

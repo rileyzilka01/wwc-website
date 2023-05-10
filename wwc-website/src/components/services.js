@@ -22,6 +22,7 @@ export default function Services() {
                             src="/media/IMG-1491.jpg"
                             width={1000}
                             height={1000}
+                            alt="crew"
                         />
                     </div>
                     <div className={styles.right}>
@@ -84,7 +85,7 @@ export default function Services() {
                             Screen Cleaning
                         </h2>
                         <p className={styles.description}>
-                            Window screens are an important part of any home or building. They help keep bugs and debris out while still allowing fresh air to flow through. However, over time, screens can accumulate dirt, dust, and grime, which can affect their effectiveness and appearance. That's why it's important to have your window screens cleaned regularly 
+                            Window screens are an important part of any home or building. They help keep bugs and debris out while still allowing fresh air to flow through. However, over time, screens can accumulate dirt, dust, and grime, which can affect their effectiveness and appearance. That&apos;s why it&apos;s important to have your window screens cleaned regularly 
                         </p>
                         <p className={styles.description}>
                             When the screens are removed, the client will typically take them outside to a designated cleaning area. Depending on the extent of the dirt and grime buildup, the screens may be brushed, scrubbed, or flooded to remove all debris and buildup.
@@ -125,7 +126,7 @@ export default function Services() {
                 </div>
             </div>
             <h2 className={styles.title}>
-                We also love to give deals and promotions to our valued customers, so be sure to inquire about any current specials or promotions we may be running. Our team is dedicated to providing high-quality services at affordable prices, and we're committed to delivering the best possible value to our customers.
+                We also love to give deals and promotions to our valued customers, so be sure to inquire about any current specials or promotions we may be running. Our team is dedicated to providing high-quality services at affordable prices, and we&apos;re committed to delivering the best possible value to our customers.
             </h2>
             <Link href="\appointments" className={styles.button}>
                 Book an Appointment Today
