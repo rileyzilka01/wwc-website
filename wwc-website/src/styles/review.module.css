@@ -44,3 +44,13 @@
     font-size: 22px;
     font-weight: 500;
 }
+
+
+@media screen and (max-width: 1000px) {
+
+    .review {
+        height: auto;
+        font-size: 4.5vw;
+    }
+
+}

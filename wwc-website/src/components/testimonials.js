@@ -20,31 +20,23 @@ export default function Testimonials() {
                 What Our Customers Have To Say
             </h1>
             <Swiper
-                slidesPerView={3}
+                slidesPerView={1}
                 spaceBetween={0}
                 autoHeight={true}
                 loop={true}
                 breakpoints={{
-                    640: {
-                        slidesPerView: 1,
-                        spaceBetween: 20,
-                    },
-                    768: {
-                        slidesPerView: 1,
-                        spaceBetween: 0,
-                    },
-                    1024: {
-                        slidesPerView: 3,
-                        spaceBetween: 0,
-                    },
+                1000: {
+                    slidesPerView: 3
+                }
                 }}
+                navigation={false}
                 autoplay={true}
                 modules={[Autoplay, Pagination, Navigation]}
                 grabCursor={true}
-                className="mySwiper"
+                className={styles.swiper}
             >
                 {reviews.map((review) => (
-                    <SwiperSlide key={review.name} data-swiper-autoplay="5000">
+                    <SwiperSlide key={review.name} data-swiper-autoplay="4000">
                         <Review name={review.name} location={review.location} review={review.review}/>
                     </SwiperSlide>
                 ))}

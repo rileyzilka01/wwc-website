@@ -1,6 +1,6 @@
 .wrapper {
     color: #042349;
-    margin: 100px 50px 0px 50px;
+    margin: 0px 50px 0px 50px;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -101,4 +101,53 @@
     width: auto;
     border-radius: 50px;
     margin-top: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+
+    .wrapper {
+        margin: 0 10vw 0 10vw;
+    }
+
+    .title {
+        margin: 0;
+        font-size: 6vw;
+    }
+
+    .subtitle {
+        font-size: 5vw;
+    }
+
+    .bottom {
+        flex-direction: column;
+    }
+
+    .image {
+        height: 50vh;
+    }
+
+    .bullet {
+        margin: 0 0 5vw 0;
+        border: none;
+    }
+
+    .bulletNumber {
+        font-size: 5vw;
+        text-align: start;
+    }
+
+    .description {
+        font-size: 4vw;
+        margin: 3vw 0vw 0vw 5vw;
+        text-align: start;
+    }
+
+    .bottom {
+        flex-direction: column;
+    }
+
+    .left {
+        border: none
+    }
+
 }

@@ -12,7 +12,6 @@
     border-right: 3px solid #042349;
     padding-right: 20px;
     margin: 20px;
-    align-items: center;    
 }
 
 .middle {
@@ -70,5 +69,46 @@
     border: 3px solid #f59c37;
     background: #e0f9ff;
     border-radius: 20px;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .left {
+        border: none;
+        margin: 5vw;
+        padding: 0;
+    }
+
+    .middle {
+        border: none;
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+        gap: 10px;
+        margin-bottom: 10px;
+    }
+
+    .right {
+        flex-direction: column;
+    }
+
+    .title {
+        font-size: 6vw;
+    }
+
+    .subtitle {
+        font-size: 6vw;
+        font-weight: bold;
+    }
+
+    .item {
+        font-size: 4.5vw;
+    }
+
 }
 

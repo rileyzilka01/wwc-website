@@ -1,6 +1,6 @@
 import styles from '@/styles/jobs.module.css'
 
-import React, {useState} from 'react';
+import React, {useState} from 'react'
 
 import {FiChevronRight as ChevRight, FiChevronDown as ChevDown} from 'react-icons/fi'
 
@@ -26,15 +26,17 @@ export default function Jobs() {
             </h2>
             <div className={styles.jobWrapper}>
                 <div className={styles.jobHeader}>
-                    <p className={styles.headerItem}>
-                        Sales Person
-                    </p>
-                    <p className={styles.headerItem}>
-                        Full Time / Part Time
-                    </p>
-                    <p className={styles.headerItem}>
-                        Calgary
-                    </p>
+                    <div className={styles.itemContainer}>
+                        <p className={styles.headerItem}>
+                            Sales Person
+                        </p>
+                        <p className={styles.headerItem}>
+                            Full Time / Part Time
+                        </p>
+                        <p className={styles.headerItem}>
+                            Calgary
+                        </p>
+                    </div>
                     <ChevRight className={styles.chev} style={{'--disp': isOpenOne ? 'none' : 'flex'}} onClick={toggleOne}/>
                     <ChevDown className={styles.chev} style={{'--disp': isOpenOne ? 'flex' : 'none'}} onClick={toggleOne}/>
                 </div>
@@ -98,15 +100,17 @@ export default function Jobs() {
             </div>
             <div className={styles.jobWrapper}>
                 <div className={styles.jobHeader}>
-                    <p className={styles.headerItem}>
-                        Window Washer
-                    </p>
-                    <p className={styles.headerItem}>
-                        Full Time / Part Time
-                    </p>
-                    <p className={styles.headerItem}>
-                        Calgary
-                    </p>
+                    <div className={styles.itemContainer}>
+                        <p className={styles.headerItem}>
+                            Window Washer
+                        </p>
+                        <p className={styles.headerItem}>
+                            Full Time / Part Time
+                        </p>
+                        <p className={styles.headerItem}>
+                            Calgary
+                        </p>
+                    </div>
                     <ChevRight className={styles.chev} style={{'--disp': isOpenTwo ? 'none' : 'flex'}} onClick={toggleTwo}/>
                     <ChevDown className={styles.chev} style={{'--disp': isOpenTwo ? 'flex' : 'none'}} onClick={toggleTwo}/>
                 </div>

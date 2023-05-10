@@ -5,3 +5,14 @@
     margin-top: 100px;
     width: 90%;
 }
+
+.swiper {
+    width: 90vw;
+}
+
+
+@media screen and (min-width: 1000) {
+    .swiper {
+        width: 1000px;
+    }
+}

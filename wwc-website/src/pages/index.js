@@ -1,3 +1,4 @@
+import Sidebar from '../components/sidebar.js'
 import Navbar from '../components/navbar.js'
 import Hero from '../components/hero.js'
 import About from '../components/about.js'
@@ -6,6 +7,8 @@ import Testimonials from '../components/testimonials.js'
 import Footer from '../components/footer.js'
 
 import Head from 'next/head'
+
+import React, {useState} from 'react'
 
 //medium blue: #7397B6
 //light gray: #ACC4CC
@@ -16,6 +19,13 @@ import Head from 'next/head'
 //light blue: #e0f9ff
 
 export default function Home() {
+
+    const [isOpen, setIsOpen] = useState(true);
+
+    const toggleSidebar = () => {
+        setIsOpen(!isOpen);
+    }
+
     return (
         <>
             <Head>
@@ -24,7 +34,8 @@ export default function Home() {
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <link rel="icon" href="/media/logo.png" />
             </Head>
-            <Navbar />
+            <Sidebar isOpen={isOpen}/>
+            <Navbar isOpen={isOpen} toggleSidebar={toggleSidebar}/>
             <Hero />
             <About />
             <Services />

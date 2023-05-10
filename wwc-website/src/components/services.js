@@ -75,9 +75,9 @@ export default function Services() {
                     $80 - $450
                 </h3>
             </div>
-            <h2 className={styles.title}>
+            <h1 className={styles}>
                 Other Services
-            </h2>
+            </h1>
             <div className={styles.bottom}> 
                 <div className={styles.bottom}>
                     <div className={styles.left}>

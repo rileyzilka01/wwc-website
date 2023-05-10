@@ -27,7 +27,6 @@ h1 {
   color: #042349;
   font-size: 48px;
   width: 100%;
-  margin-bottom: 25px;
   text-align: center;
   overflow: hidden;
 }
@@ -50,4 +49,17 @@ h1:before {
 h1:after {
   margin-right: -50%;
   left: 15px;
+}
+
+
+@media screen and (max-width: 1000px) {
+
+  h1 {
+    font-size: 10vw;
+  }
+
+  h1:before, h1:after {
+    display: none;
+  }
+
 }

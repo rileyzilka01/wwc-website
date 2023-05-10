@@ -1,9 +1,10 @@
 .wrapper {
     display: flex;
     flex-direction: column;
-    padding-top: 80px;
+    padding-top: 50px;
     color: #042349;
     min-height: 100vh;
+    margin: 50px 100px 0px 100px;
 }
 
 .mainTitle {
@@ -15,23 +16,31 @@
 }
 
 .mainSubtitle {
+    margin-top: 20px;
     text-align: center;
 }
 
 .jobWrapper {
-    margin: 50px 100px 0px 100px;
+    margin: 50px 0px 0px 0px;
     border-top: 3px solid #042349;
     border-bottom: 3px solid #042349;
 }
 
 .jobHeader {
     display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    align-self: center;
+    align-items: center;
+}
+
+.itemContainer {
+    width: 100%;
+    display: flex;
     flex-flow: row wrap;
     flex-direction: row;
     justify-content: space-between;
-    padding: 20px;
     align-self: center;
-
 }
 
 .headerItem {
@@ -77,4 +86,56 @@
     margin-left: 10px;
     margin-bottom: 10px;
     border-left: 3px solid #042349;
+}
+
+@media screen and (max-width: 1000px) {
+    
+    .wrapper {
+        margin: 5vw;
+        padding-top: 40px;
+    }
+    
+    .mainTitle {
+        font-size: 8vw;
+    }
+
+    .mainSubtitle {
+        font-size: 5vw;
+        font-weight: 500;
+    }
+
+    .headerItem {
+        font-size: 4vw;
+    }
+
+    .chev {
+        display: var(--disp);
+        height: 20vw;
+        width: 20vw;
+    }
+
+    .itemContainer {
+        flex-direction: column;
+    }
+
+    .headerItem {
+        font-size: 6vw;
+    }
+
+    .headerItem + .headerItem {
+        border: none;
+    }
+
+    .description {
+        font-size: 5vw;
+    }
+
+    .bulletTitle {
+        font-size: 6vw;
+    }
+
+    .bullet {
+        font-size: 4.5vw;
+    }
+
 }

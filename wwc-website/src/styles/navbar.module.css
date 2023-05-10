@@ -5,17 +5,32 @@
     flex-direction: row;
     gap: 40px;
     height: 80px;
+    top: 0px;
     width: 100vw;
-    padding: 0px 40px 0px 40px;
+    padding: 0px 40px 0px 0px;
     box-shadow: 0px 5px 15px -5px black;
     align-items: center;
     z-index: 999;
     justify-content: space-between;
 }
 
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .logo {
     height: 70px;
     width: auto;
+}
+
+.hamburger {
+    height: 10vw;
+    width: auto;
+    display: none;
 }
 
 .left {
@@ -50,4 +65,32 @@
     border: 3px solid #f59c37;
     background: #e0f9ff;
     border-radius: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+
+    .wrapper {
+        width: 20vw;
+        height: 20vw;
+        right: 5vw;
+        top: 5vw;
+        border-radius: 20vw;
+        padding: 0px;
+        margin: 0px;
+        gap: 0px;
+    }
+
+    .container {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+        position: absolute;
+        top: 5vw;
+        right: 5vw;
+        cursor: pointer;
+        color: white;
+    }
+
 }
