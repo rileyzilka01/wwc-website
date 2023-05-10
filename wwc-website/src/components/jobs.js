@@ -38,7 +38,7 @@ export default function Jobs() {
                     <ChevRight className={styles.chev} style={{'--disp': isOpenOne ? 'none' : 'flex'}} onClick={toggleOne}/>
                     <ChevDown className={styles.chev} style={{'--disp': isOpenOne ? 'flex' : 'none'}} onClick={toggleOne}/>
                 </div>
-                <div className={styles.expandedWrapper} style={{'--disp': isOpenOne ? 'flex' : 'none'}}>
+                <div className={styles.expandedWrapper} style={{'--disp': isOpenOne ? 'none' : 'flex'}}>
                     <div className={styles.description}>
                         As a Salesman, you will be responsible for selling our services to potential customers. With the most common route being door to door. You will work closely with our marketing team to identify potential leads, follow up with prospects, and close deals.
                     </div>
@@ -110,7 +110,7 @@ export default function Jobs() {
                     <ChevRight className={styles.chev} style={{'--disp': isOpenTwo ? 'none' : 'flex'}} onClick={toggleTwo}/>
                     <ChevDown className={styles.chev} style={{'--disp': isOpenTwo ? 'flex' : 'none'}} onClick={toggleTwo}/>
                 </div>
-                <div className={styles.expandedWrapper} style={{'--disp': isOpenTwo ? 'flex' : 'none'}}>
+                <div className={styles.expandedWrapper} style={{'--disp': isOpenTwo ? 'none' : 'flex'}}>
                     <div className={styles.description}>
                         We are seeking hardworking and reliable Window Washers to join our team. As a Window Washer, you will be responsible for cleaning and maintaining the exterior of residential buildings. You will work closely with our clients to provide excellent customer service and ensure that their properties are clean and presentable. So when the job is complete everyone is happy.
                     </div>
