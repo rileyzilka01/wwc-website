@@ -20,8 +20,8 @@ export default function Home() {
         <>
             <Head>
                 <title>Appointments | WWC</title>
-                <meta name="keywords" content="Window Washing, Services, Calgary, Washing, Windows, Cheap, Competetive, Customer Service, Collective, Gutter, Screen Cleaning, Shine, Appointments"/>
-                <meta name="description" content="appointments, scheduling, schedule, calendar, availability, book, time, window washing, collective" />
+                <meta name="keywords" content="Window Washing, Services, Calgary, Washing, Windows, Cheap, Competetive, Customer Service, Collective, Gutter, Screen Cleaning, Shine, Appointments, Scheduling, Book a time, Neighbourhood"/>
+                <meta name="description" content="High quality, premium window washing, gutter shining and screen cleaning services in Calgary Alberta. Prioritized customer service and employee gratification" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <link rel="icon" href="/media/logo.png" />
             </Head>
