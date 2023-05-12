@@ -1,0 +1,182 @@
+.wrapper {
+    color: #042349;
+    margin: 80px 80px 0px 80px;
+    font-size: 1.25vw;
+    font-weight: 500;
+    display: flex;
+    flex-direction: row;
+}
+
+.calContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.calendarWrapper {
+    display: var(--wrapDisp);
+    flex-direction: column;
+    padding: 20px 50px 50px 50px;
+    gap: 20px;
+}
+
+.monthHeader {
+    display: grid;
+    grid-template-columns: repeat(7, 4vw);
+    gap: 20px;
+}
+
+.month {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.week {
+    display: grid;
+    grid-template-columns: repeat(7, 4vw);
+    height: 4vw;
+    gap: 20px;
+}
+
+.dayOut {
+    background: lightgray;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px 0px gray;
+    text-align: center;
+}
+
+.day {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 10px;
+    text-align: center;
+    color: black;
+    transition: 0.3s ease-in-out;
+    padding: 10px;
+    box-shadow: 5px 5px 10px 0px gray;
+}
+
+.bar {
+    background: var(--col);
+    height: 10px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.monthSwitchWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 50px 50px 0px 50px;
+}
+
+.chev {
+    visibility: var(--chevDisp);
+    padding: 10px;
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    text-decoration: none;
+    user-select: none;
+}
+
+.monthName {
+    font-size: 54px;
+}
+
+.legendContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+}
+
+.disclaimer {
+    font-size: 24px;
+    padding: 5px;
+}
+
+.legendItem {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.legendText {
+    font-size: 20px;
+    padding: 5px;
+}
+
+@media screen and (max-width:1000px) {
+    .wrapper {
+        margin: 0px 10px 10px 10px;
+        font-size: 4vw;
+        margin-top: 100px;
+        flex-direction: column;
+    }
+
+    .calendarWrapper {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .month {
+        gap: 2vw;
+    }
+
+    .monthHeader {
+        grid-template-columns: repeat(7, 1fr);
+        height: auto;
+        gap: 2vw;
+    }
+
+    .monthSwitchWrapper {
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    .monthName {
+        font-size: 13vw;
+    }
+
+    .legendContainer {
+        padding: 20px;
+    }
+
+    .disclaimer {
+        margin: 0px;
+        padding-bottom: 10px;
+        font-size: 18px;
+    }
+
+    .week {
+        grid-template-columns: repeat(7, 1fr);
+        height: auto;
+        gap: 2vw;
+    }
+
+    .day {
+        border-radius: 1fr;
+        outline: none;
+        padding: 1vw;
+        margin: 0px;
+        font-size: 18px;
+        box-shadow: 2px 2px 5px 0px gray;
+    }
+
+    .dayOut {
+        font-size: 18px;
+        border-radius: 1fr;
+        outline: none;
+        padding: 1vw;
+        margin: 0px;
+        box-shadow: 2px 2px 5px 0px gray;
+    }
+
+}
+
+
+

@@ -1,5 +1,7 @@
 import Sidebar from '@/components/sidebar.js'
 import Navbar from '../components/navbar.js'
+import Calendars from '@/components/calendars.js'
+import Form from '../components/form.js'
 import Footer from '../components/footer.js'
 
 import Head from 'next/head'
@@ -24,6 +26,8 @@ export default function Home() {
             </Head>
             <Sidebar isOpen={isOpen}/>
             <Navbar isOpen={isOpen} toggleSidebar={toggleSidebar}/>
+            <Calendars />
+            <Form />
             <Footer />
         </>
     )
