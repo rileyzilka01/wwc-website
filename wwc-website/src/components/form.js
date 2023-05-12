@@ -6,7 +6,7 @@ export default function Form() {
         <div>
             <div className={styles.wrapper}>
                 <form className={styles.form} 
-                    action="https://formsubmit.co/windowwashingcollective@gmail.com"
+                    action="https://formsubmit.co/2b16baf8a244b30edd31b36adb28eee7"
                     method="POST" 
                     spellCheck="false" 
                     id="contact"
@@ -21,7 +21,7 @@ export default function Form() {
                         We are always looking for new customers so if you not are listed in one of the communities listed above, we may be able to do a group deal with your neighbours!
                     </h3>
                     <div className={styles.inputContainer}>
-                        <input type="hidden" name="_next" value="https://wwc-website.vercel.app/thanks"/>
+                        <input type="hidden" name="_next" value="https://windowwashingcollective.com/thanks"/>
                         <div className={styles.inputRow}>
                             <input className={styles.input} 
                                 form_id="contact" 

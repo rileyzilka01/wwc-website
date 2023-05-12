@@ -30,6 +30,7 @@ export default function Home() {
         <>
             <Head>
                 <title>Home | WWC</title>
+                <meta name="keywords" content="Window Washing, Services, Calgary, Washing, Windows, Cheap, Competetive, Customer Service, Collective, Gutter, Screen Cleaning, Shine"/>
                 <meta name="description" content="" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <link rel="icon" href="/media/logo.png" />
