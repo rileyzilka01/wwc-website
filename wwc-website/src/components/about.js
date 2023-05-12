@@ -45,6 +45,9 @@ export default function About() {
                     </div>
                 </div>
             </div>
+            <div className={styles.button}>
+                Book an Appointment
+            </div>
         </div>
     )
 }

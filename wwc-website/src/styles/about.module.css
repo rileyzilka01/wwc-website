@@ -64,6 +64,19 @@
     padding: 0px 30px 30px 30px;
 }
 
+.button {
+    display: none;
+    align-self: center;
+    color: #042349;
+    font-size: 26px;
+    font-weight: 600;
+    margin-top: 20px;
+    padding: 10px 20px 10px 20px;
+    border: 3px solid #f59c37;
+    background: #e0f9ff;
+    border-radius: 20px;
+}
+
 @media screen and (max-width: 1000px) {
 
     .contentBottom {
@@ -89,6 +102,10 @@
     .bottomItem:hover {
         transition: 0.3s ease-in-out;
         transform: scale(1.00);
+    }
+
+    .button {
+        display: block;
     }
 
 }

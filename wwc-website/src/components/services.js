@@ -74,6 +74,9 @@ export default function Services() {
                 <h3 className={styles.price}>
                     $80 - $450
                 </h3>
+                <div className={styles.button}>
+                    Book a Window Service
+                </div>
             </div>
             <h1 className={styles}>
                 Other Services

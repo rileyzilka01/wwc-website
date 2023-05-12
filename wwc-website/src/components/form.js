@@ -63,6 +63,11 @@ export default function Form() {
                             id="address" 
                             name="Address"
                         />
+                        <textarea className={styles.textArea} 
+                            type="name" 
+                            placeholder="Please provide 3 date and times you are available" 
+                            required="true" 
+                            name="Dates Available"/>
                         <input className={styles.input} 
                             type="name" 
                             placeholder="If applicable, how did you hear about us?" 

@@ -43,6 +43,15 @@
     box-shadow: 3px 3px 5px 0px gray;
 }
 
+.textArea {
+    max-width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 30px;
+    border: 2px solid black;
+    box-shadow: 3px 3px 5px 0px gray;
+}
+
 .button {
     align-self: center;
     color: #042349;
@@ -80,6 +89,10 @@
     }
 
     .input {
+        font-size: 16px;
+    }
+
+    .textArea {
         font-size: 16px;
     }
 }
