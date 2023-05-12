@@ -52,7 +52,7 @@ export default function Form() {
                                 type="tel" 
                                 placeholder="Phone Number" 
                                 id="phone" 
-                                phone="Phone"
+                                name="Phone"
                                 required
                             />
                         </div>
