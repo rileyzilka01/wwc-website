@@ -51,9 +51,6 @@ export default function Calendars() {
                     * If you book a time while we are in your area you may be eligible for up to 50% off on services
                 </h2>
                 <h2 className={styles.disclaimer}>
-                    * If you are not in one of our target communities, your quote will be $200 or more.
-                </h2>
-                <h2 className={styles.disclaimer}>
                     * Services booked during the &apos;comeback&apos; period will not be eligible for discount nor will you be charged extra
                 </h2>
                 <div className={styles.legendItem}>

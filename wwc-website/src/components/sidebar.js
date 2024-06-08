@@ -43,6 +43,11 @@ export default function Sidebar({ isOpen }) {
                     Book an Appointment
                 </div>
             </Link>
+            <Link href="/review">
+                <div className={styles.button}>
+                    Leave a Review
+                </div>
+            </Link>
         </div>
     )
 }

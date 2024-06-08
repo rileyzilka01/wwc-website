@@ -27,9 +27,6 @@ export default function Footer() {
                         Sales: 403-618-3783
                     </h2>
                     <h2 className={styles.item}>
-                        Customer Service: 403-404-1478
-                    </h2>
-                    <h2 className={styles.item}>
                         Windowwashingcollective@gmail.com
                     </h2>
                 </div>

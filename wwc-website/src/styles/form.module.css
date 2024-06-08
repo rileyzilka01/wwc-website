@@ -3,6 +3,14 @@
     color: #042349;
 }
 
+.wrapperFill {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    color: #042349;
+    min-height: 100vh;
+}
+
 .form {
     display: flex;
     flex-direction: column;
@@ -12,6 +20,12 @@
 .title {
     font-size: 36px;
     align-self: center;
+}
+
+.subtitleReview {
+    margin: 10px 200px 0px 200px;
+    align-self: center;
+    text-align: center;
 }
 
 .subtitle {
@@ -38,7 +52,7 @@
     font-size: 20px;
     width: 100%;
     outline: none;
-    border-radius: 30px;
+    border-radius: 15px;
     border: 2px solid black;
     box-shadow: 3px 3px 5px 0px gray;
 }
@@ -47,7 +61,7 @@
     max-width: 100%;
     padding: 10px;
     font-size: 20px;
-    border-radius: 30px;
+    border-radius: 15px;
     border: 2px solid black;
     box-shadow: 3px 3px 5px 0px gray;
 }
@@ -65,7 +79,7 @@
 }
 
 @media screen and (max-width: 1000px) {
-    
+
     .form {
         padding: 0px 24px 0px 24px;
     }
@@ -74,7 +88,7 @@
         font-size: 24px;
     }
 
-    .subtitle {
+    .subtitle, .subtitleReview {
         margin: 18px 0px 0px 0px;
         font-size: 16px;
     }
